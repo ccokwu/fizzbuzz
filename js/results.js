@@ -1,5 +1,5 @@
 var app = angular.module("fizzbuzz");
 app.controller("resultsctrl", function($scope, fizzbuzzService){
 
-  $scope.fizzbuzzObject = fizzBuzzFunction();
+  $scope.fizzbuzzObject = fizzbuzzService.fizzBuzzFunction();
 });

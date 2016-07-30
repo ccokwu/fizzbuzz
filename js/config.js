@@ -1,5 +1,5 @@
-angular.module("fizzbuzz")
-        .config(function($routeProvider){
+var app = angular.module("fizzbuzz")
+  app.config(function($routeProvider){
   $routeProvider.when("/", {
     templateUrl: "partials/home.html",
     controller: "fizzbuzzctrl"
